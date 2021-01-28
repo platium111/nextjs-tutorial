@@ -1,3 +1,4 @@
+import Link from "next/link";
 // ! need to have export default
 export default function FirstPost() {
   return (
