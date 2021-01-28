@@ -1,4 +1,13 @@
 // ! need to have export default
 export default function FirstPost() {
-  return <h1>New first post created for first part</h1>;
+  return (
+    <>
+      <h1>First Post</h1>
+      <h2>
+        <Link href="/">
+          <a>Back to home</a>
+        </Link>
+      </h2>
+    </>
+  );
 }
