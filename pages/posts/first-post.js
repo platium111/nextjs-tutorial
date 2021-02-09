@@ -4,6 +4,7 @@ import Head from "next/head";
 export default function FirstPost() {
   return (
     <>
+      {/* // how: Modifying Head | why using <Head> ? because you can modify head of the page */}
       <Head>
         <title>First Post</title>
       </Head>

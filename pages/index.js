@@ -11,9 +11,11 @@ import Image from "next/image";
 //        we'll see the transition meaning not refreshing all the page -> quick response time
 
 // feat:  Code-splitting | only loading the page currently display -> if load Home page only have home page js load
+
 // feat:  Prefetching | when the Link display in the page, it will automatic prefetching page which has href refer to in background
 
 // how:  assets file | can be put in public/images
+
 // feat:  optimising images | to avoid loading large images in the small viewport -> using <Image> from NextJS
 //        it will resize, optimise, serving as WebP format which browsers support
 export default function Home() {
