@@ -2,6 +2,9 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
+// feat: pages/index is Home -> the main page -> automatic defined as default by NextJS
+//       from this link, we can route to different pages using <Link> with href and place pages inside pages package
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to{" "}
+          {/*  // feat: using <Link> with href for Navigation between pages -> href value will have route */}
           <Link href="/posts/first-post">
             <a>Next.js by Clark. It is the first tutorial!</a>
           </Link>
