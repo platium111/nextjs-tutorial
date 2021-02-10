@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-
+import Layout from "../../components/layout";
 // ! need to have export default
 export default function FirstPost() {
   return (
-    <>
+    <Layout>
       {/* // how:  Modifying Head | why using <Head> ? because you can modify head of the page */}
       <Head>
         <title>First Post</title>
@@ -34,6 +34,6 @@ export default function FirstPost() {
           }
         `}
       </style>
-    </>
+    </Layout>
   );
 }
